@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Assignment 03 </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+  <body >
+<div  class="Main m-5 ">
+    <div class="row mt-2 text-center">
+        <form action="app.js">
+            <label><h5>Find Mobiles Details</h5></label>
+            <br>
+            <br>
+
+        <input style="border-radius: 10px;" type="text" id="field" placeholder="Seaching Mobiles">
+
+        
+
+        <select style="border-radius: 10px;" name="type" id="My01">
+            <option id="brand">brand</option>
+            <option id="model">model</option>
+            <option id="price">price</option>
+            <option id="camera">camera</option>
+            <option id="ram">ram</option>
+            <option id="rom">rom</option>
+        </select>
+
+     
+            <button style="background-color: green;color: azure;border-radius: 10px;" id="inputfield" onclick="find(event);">Search</button>
+
+           
+       </form>
+        </div>
+    <div class="row m-5 p-5 border box-shadow">
+     <ul class="" id="mylist">
+
+     </ul>
+    </div>
+</div>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
